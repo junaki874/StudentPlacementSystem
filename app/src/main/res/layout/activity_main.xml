@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/myfile"
+     android:paddingTop="80dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Student Placement System"
+        android:textAllCaps="false"
+        android:textColor="#f51d1b1c"
+        android:textSize="25sp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="italic"
+        app:layout_goneMarginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/st"
+        />
+    <Button
+        android:id="@+id/adminId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#f4f1f1"
+        android:textSize="20sp"
+        android:background="#1396e7"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/tpoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#1396e7"
+        android:text="TPO"
+        android:textAllCaps="false"
+        android:textColor="#f4f1f1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/studentbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#1396e7"
+        android:text="Student"
+        android:textAllCaps="false"
+        android:textColor="#f4f1f1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
